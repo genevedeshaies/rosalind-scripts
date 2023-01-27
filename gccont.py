@@ -23,3 +23,10 @@ def findHighestGC(gcContCompilation):
 computedGC = computeGCContent("gc.txt", "fasta")
 
 print(findHighestGC(computedGC))
+
+
+########################################## Ou encore
+
+# from Bio import SeqUtils
+
+# gcCont = SeqUtils.GC(file)
